@@ -22,7 +22,6 @@ selectOrder.addEventListener("change",() => {
     }else{
         drawData(sortData(dataFilms).reverse())
     }
-    
 })
 //INFO DE CARTAS
 const infoCard = (films) => {
@@ -53,4 +52,5 @@ const drawData = (data) => {
     }
     drawData(dataFilms);   
     
-    
+  
+

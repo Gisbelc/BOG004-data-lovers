@@ -71,18 +71,19 @@ describe('sortData', () => {
 
  it('deberia devolver el resultado ordenado de la "A-Z"', () => {
   const data = [
-    { title: "The Cats Returns"},
-    { title: "The Secret World of Arriety" },
-    { title: "The Tale of the Princess Kaguya" },
-    { title: "When Marnie Was There"},
     { title: "Whisper of the Heart"},
+    { title: "When Marnie Was There"},
+    { title: "The Tale of the Princess Kaguya" },
+    { title: "The Secret World of Arriety" },
+    { title: "The Cats Returns"},
+   
   ]
   const resultado = [
-    { title: "Whisper of the Heart"},
-    { title: "When Marnie Was There"},
-    { title: "The Tale of the Princess Kaguya" },
-    { title: "The Secret World of Arriety" },
     { title: "The Cats Returns"},
+    { title: "The Secret World of Arriety" },
+    { title: "The Tale of the Princess Kaguya" },
+    { title: "When Marnie Was There"},
+    { title: "Whisper of the Heart"},
   ]
-  expect(sortData(resultado)).toEqual(data);
+  expect(sortData(data)).toEqual(resultado);
 });
