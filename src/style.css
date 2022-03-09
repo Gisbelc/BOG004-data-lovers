@@ -55,7 +55,7 @@ p {
     height: 40px;
     width: 210px;
     top: 0;
-    left: 300px;
+    left: 100px;
     background-color:rgba(0, 0, 0, 0.363);
     color: white;  
     border-radius: 10px;
@@ -68,7 +68,7 @@ p {
     height:40px;
     width:210px;
     top: -40px;
-    left: 650px ;
+    left: 350px ;
     background-color:rgba(0, 0, 0, 0.363);
     color: white;
     border-radius: 10px;
@@ -77,15 +77,25 @@ p {
 /*SEARCH FILMS*/
 #search-film {
     position: relative;
-    height: 40px;
+    height: 35px;
     width:210px;
     top: -80px ;
-    left: 990px ;
+    left: 590px ;
     border-radius: 10px;
     background-color:rgba(0, 0, 0, 0.363);
+    font-size: 15px;    
+}
+/*RT_SCORE*/
+#select-score {
+    position: relative;
+    height:40px;
+    width:210px;
+    top: -120px;
+    left: 850px ;
+    background-color:rgba(0, 0, 0, 0.363);
+    color: white;
+    border-radius: 10px;
     font-size: 15px;
-
-    
 }
 
 .root{
@@ -196,6 +206,7 @@ transform: perspective(500px) rotateY(0deg);
     backface-visibility: visible;
     margin-top: 20px;
     justify-content: space-between;
+   
     
   
 }
@@ -214,4 +225,8 @@ h6{
     position: relative;
     font-size: 20px;
     top:12px;
+}
+.back {
+    width:410px ;
+    height:10px ;
 }

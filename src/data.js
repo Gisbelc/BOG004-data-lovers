@@ -24,3 +24,9 @@ export const sortData = (orderData) => {
    })
   return resultData;
 }
+
+//PROMEDIO
+export function selectScore(data) {
+  const selectScore = data.filter((film) => film.rt_score === rt_score);
+  return selectScore
+}

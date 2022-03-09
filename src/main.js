@@ -23,7 +23,6 @@ selectOrder.addEventListener("change",() => {
     }else{
         drawData(sortData(dataFilms).reverse())
     }
-    
 })
 //INFO DE CARTAS
 const infoCard = (films) => {
@@ -54,4 +53,12 @@ const drawData = (data) => {
     }
     drawData(dataFilms);   
     
-    
+    // PROMEDIO
+    const selectScore = document.getElementById("select-score");
+selectScore.addEventListener("change",() => {
+    if(selectScore.value < 30)  {
+        
+
+    }
+})    
+
