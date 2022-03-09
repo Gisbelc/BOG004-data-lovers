@@ -5,7 +5,6 @@ import data from './data/ghibli/ghibli.js';
 const dataFilms = data.films
 let search = document.getElementById("search-film")
 search.addEventListener("change", (event) => {
-    console.log(event.target.value)
 drawData(filterFilm(dataFilms,event.target.value))
 
 })

@@ -1,217 +1,241 @@
+@media (max-width: 720px) {
+}
+
 body {
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1108.jpg?w=740);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1108.jpg?w=740);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .container {
-   height: 220px;
-   width: 550px;
-   color: black;
-   font-size: 20px; 
-   text-align: center;
-   position: relative;
-   top: -150px;
-   left: 35px;
+  display: flex;
+  float: left;
+  height: 200px;
+  width: 35%;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 50px;
 }
 
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorDescripcion {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorFiltros {
+  display: flex;
+  width: 60vw;
+  margin-top: 20px;
+  justify-content: space-between;
+}
 .container-img {
-display: flex;
-height: 100px;
-width: 100px;
-position: relative;
-top: 35px;
-left: 200px;
+  display: flex;
+  width: 30%;
+  height: 280px;
+  min-width: 100px;
+  margin-bottom: 60px;
+  justify-content: center;
+  
+
 }
 
 .containers {
-display: flex;
-height: 250px;
-width: 250px;
-position: relative;
-top: 10px;
-left:700px;
+  display: flex;
+  float: right;
+  margin-right: 50px;
+  margin-top: -30px;
+  height: 250px;
+  width: 40%;
+  /*position: relative;
+  top: 10px20px
+  left: 700px;*/
 }
 
 p {
-    background: rgba(107, 233, 107, 0.384);
-    color:#fff;
-    position: relative;
-    font-size: 50px ;
-    top: 10px;
-    left: 0px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-    box-shadow: 6px 6px 9px rgb(1, 32, 37);
-        
+  background: rgba(107, 233, 107, 0.384);
+  color: #fff;
+  position: relative;
+  font-size: 50px;
+  top: 10px;
+  left: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  box-shadow: 6px 6px 9px rgb(1, 32, 37);
 }
-
 
 /*FILTER OF DIRECTOR*/
 #director-select {
-    position: relative;
-    height: 40px;
-    width: 210px;
-    top: 0;
-    left: 300px;
-    background-color:rgba(0, 0, 0, 0.363);
-    color: white;  
-    border-radius: 10px;
-    font-size: 15px;
+  /*position: relative;*/
+  display: flex;
+  height: 40px;
+  width: 210px;
+  top: 0;
+  left: 300px;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 300px;
+  margin-left: 300px;
 }
 
 /*FILTER A-Z Z-A*/
 #alpha-select {
-    position: relative;
-    height:40px;
-    width:210px;
-    top: -40px;
-    left: 650px ;
-    background-color:rgba(0, 0, 0, 0.363);
-    color: white;
-    border-radius: 10px;
-    font-size: 15px;
+  position: relative;
+  height: 40px;
+  width: 210px;
+  top: -40px;
+  left: 650px;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
 }
 /*SEARCH FILMS*/
 #search-film {
-    position: relative;
-    height: 40px;
-    width:210px;
-    top: -80px ;
-    left: 990px ;
-    border-radius: 10px;
-    background-color:rgba(0, 0, 0, 0.363);
-    font-size: 15px;
-
-    
+  position: relative;
+  height: 40px;
+  width: 210px;
+  top: -80px;
+  left: 990px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.363);
+  font-size: 15px;
 }
 
-.root{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-inline-start: auto;
-
+.root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline-start: auto;
 }
 
-.container-of-films{
-display:flex;
-padding: 5px;
-background-color: rgba(61, 204, 137, 0.473);
-box-shadow: 6px 6px 9px rgb(1, 32, 37);
-flex-direction: column;
-top: 0px;
-left: 20px;
-margin: 20px;
-text-align: center;
-line-height: 5px;
-border-radius: 10px;
-height:450px ;
-width:300px ;
+.container-of-films {
+  display: flex;
+  padding: 5px;
+  background-color: rgba(61, 204, 137, 0.473);
+  box-shadow: 6px 6px 9px rgb(1, 32, 37);
+  flex-direction: column;
+  top: 0px;
+  left: 20px;
+  margin: 20px;
+  text-align: center;
+  line-height: 5px;
+  border-radius: 10px;
+  height: 450px;
+  width: 300px;
 }
 
 .card-title {
-    position: relative;
-    background: rgba(107, 233, 107, 0.384);
-    font-size: 18px;
-    width: 300px;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    top: 30px;
-    font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  background: rgba(107, 233, 107, 0.384);
+  font-size: 18px;
+  width: 300px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  top: 30px;
+  font-family: "Josefin Sans", sans-serif;
 }
-.card-director{
-    position: relative;
-    line-height:20px;
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    top: 10px;
-}
-
-.card-score{
-    position: relative;
-    line-height:20px;
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    top: 10px;
-}
-.card-year{
-    position: relative;
-    line-height:20px;
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-}
-.card-description{
-    position: relative;
-    color:#fff;
-    font-family: 'Josefin Sans', sans-serif;
-    width:auto;
-    height: auto;
-    line-height:20px;
-    font-size: 15px;
-}
-.card-score{
-    position: relative;
-    top: 25px;
+.card-director {
+  position: relative;
+  line-height: 20px;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  top: 10px;
 }
 
-.poster{
-height:260px ;
-width:220px ;
+.card-score {
+  position: relative;
+  line-height: 20px;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  top: 10px;
+}
+.card-year {
+  position: relative;
+  line-height: 20px;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+.card-description {
+  position: relative;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  width: auto;
+  height: auto;
+  line-height: 20px;
+  font-size: 15px;
+}
+.card-score {
+  position: relative;
+  top: 25px;
 }
 
+.poster {
+  height: 260px;
+  width: 220px;
+}
 
-::placeholder{
-    color: white;
+::placeholder {
+  color: white;
 }
 
 .front {
-transform: perspective(500px) rotateY(0deg);
-
-} 
+  transform: perspective(500px) rotateY(0deg);
+}
 
 .back {
-    position: relative;
-    width:40px ;
-    height: 40px;
-    transform: perspective(500px) rotateY(180deg);
-    backface-visibility: hidden;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  transform: perspective(500px) rotateY(180deg);
+  backface-visibility: hidden;
 }
 
 .container-of-films:hover .front {
-    transform: perspective(500px) rotateY(180deg);
-    backface-visibility: hidden;
+  transform: perspective(500px) rotateY(180deg);
+  backface-visibility: hidden;
 }
 
 .container-of-films:hover .back {
-    position: relative;
-    top: -390px;;
-    width: 100%;
-    height: 100%;
-    transform: perspective(500px) rotateY(180deg);
-    backface-visibility: visible;
-    margin-top: 20px;
-    justify-content: space-between;
-    
-  
+  position: relative;
+  top: -390px;
+  width: 100%;
+  height: 100%;
+  transform: perspective(500px) rotateY(180deg);
+  backface-visibility: visible;
+  margin-top: 20px;
+  justify-content: space-between;
 }
 .footer {
-    position: relative;
-    color:#fff;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-    box-shadow: 6px 6px 9px rgb(1, 32, 37);
-    width:1480px ;
-    height:50px ;
-    text-align: center;
+  position: relative;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  box-shadow: 6px 6px 9px rgb(1, 32, 37);
+  width: 1480px;
+  height: 50px;
+  text-align: center;
 }
 
-h6{
-    position: relative;
-    font-size: 20px;
-    top:12px;
+h6 {
+  position: relative;
+  font-size: 20px;
+  top: 15px;
+  margin-bottom: 0%;
+
 }
